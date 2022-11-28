@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #0C4A6E;
+    text-align: center;
+}
+.flex{
+    position:relative;
+    justify-content: center;
+    display: flex;
+    gap:15px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* border:2px solid red; */
+    padding-bottom: 30px;
+}
+ .container  h3{
+    color: white;
+    font-size: 40px;
+    font-weight:800;
+    
+}
+.score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color:black;
+    padding-top: 18px;
+    width: 150px;
+    margin: 15px;
+    margin-top:-30px;
+    color:red;
+    font-size: 90px;
+    border-radius:5px;
+    /*  */
+}
+.point > *{
+    background-color: #0C4A6E;
+    color: hsl(100 100% 100% / 0.6);
+    padding:8.5px;
+    border: 1px solid hsl(100 100% 100% / 0.6);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius:5px;
+}
+.point > *:hover,
+.point > *:focus{
+    color: hsl(100 100% 100% / 0.9);
+    border: 1px solid hsl(100 100% 100% / 0.9);
+}
+.newGame{
+    margin-top: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    background-color: #0C4A6E;
+    color: hsl(100 100% 100% / 0.5);
+    padding:13px 8px 5px 15px;
+    border: 5px dashed hsl(100 100% 100% / 0.4);
+    border-radius: 10px;
+    transition: border 500ms ease-in, color 1s ease-in-out,border 2000ms ease-out;
+}
+.newGame:hover,
+.newGame:focus{
+    color: hsl(100 100% 100%);
+    border: 5px dashed hsl(100 100% 100% / 0.9);
+}
+/* ------------------------ */
+/* #board1{
+    border: 5px solid yellow;
+}
+#board2{
+    border: 5px solid yellow;
+} */
